@@ -1,0 +1,64 @@
+body {
+    background-color: #444;
+    margin: 40px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Calculadora {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(32, 32, 32);
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.5rem;
+    color: #fff;
+    margin-bottom: 20px; /* Para añadir un espacio debajo del título */
+}
+
+label {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    color: #fff;
+    align-self: flex-start;
+    margin: 10px 0 5px 0; /* Para añadir margen alrededor de los labels */
+}
+
+input, select {
+    font-family: 'Times New Roman', Times, serif;
+    border: none;
+    border-bottom: solid 2px #fff;
+    margin-bottom: 20px;
+    padding: 10px 5px;
+    width: calc(100% - 10px);
+    background-color: rgb(32, 32, 32);
+    color: #fff;
+    font-size: 1.2rem;
+    box-sizing: border-box;
+}
+
+button {
+    color: #fff;
+    font-size: 1.5rem;
+    background-color: black;
+    padding: 10px 30px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #333;
+}
